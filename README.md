@@ -11,6 +11,8 @@ Replace the AWS credentials with your valid credentials.
 
 Replace the region with your region
 
-Tag your EC2 Instances with a 'Roles' tag containing your roles, comma separated.
+Tag your EC2 Instances with a 'Roles' tag containing your roles, comma separated
+
+Tag your EC2 Instances with a 'Name' tag containing the instance hostname
 
 Place this grain in your <file_roots>/_grains folder.
