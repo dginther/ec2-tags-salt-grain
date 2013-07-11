@@ -27,4 +27,6 @@ def ec2_roles():
 	grains={}
 	# Fill grains with tags
 	grains['ec2_roles'] = tags.split(',')
+	# Might as well stick the region in a grain as well
+	grains['ec2_region'] = region
 	return grains
